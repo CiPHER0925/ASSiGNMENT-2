@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+    background-color: #181824;
+}
+
 
 /* linear-gradient(to bottom right, #B69DE8, #9C11F9);*/
 .header {
@@ -36,17 +41,18 @@
 }
 
 .addbtn {
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
+    margin-left: 20px;
     border-radius: 50px;
     background: transparent;
-    border: none;
+    border: 1px solid #53556A;
 }
 
 .btnvalue {
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.45rem;
 }
 
 .input-box {
@@ -58,3 +64,49 @@
     color: white;
     background: transparent;
 }
+
+.items-grp {
+    margin-top: 25px;
+    list-style: none;
+}
+
+.added-item {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 510px;
+    font-size: 18px;
+    border-bottom: 1px solid #53556A;
+    color: white;
+    background-color: #25273C;
+}
+
+.list-value {
+    margin-right: 68%;
+}
+
+.complete {
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background: transparent;
+    border: 1px solid #53556A;
+    color: white;
+    font-size: 1rem;
+}
+
+.delete {
+    width: 45px;
+    height: 45px;
+    margin-left: 68%;
+    border-radius: 50px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
