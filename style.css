@@ -19,6 +19,42 @@
     letter-spacing: 12px;
     font-size: 3rem;
     position: absolute;
-    top: 25%;
-    left: 35%;
+    top: 29%;
+    left: 38%;
+}
+
+.todo {
+    position: absolute;
+    top: 49%;
+    left: 38%;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: #25273C;
+}
+
+.addbtn {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background: transparent;
+    border: none;
+}
+
+.btnvalue {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.input-box {
+    height: 45px;
+    width: 450px;
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background: transparent;
 }
