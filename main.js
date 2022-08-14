@@ -28,4 +28,9 @@ function addItem(e) {
     delBtn.id = 'del-btn';
     delBtn.className = 'delete';
     delBtn.appendChild(document.createTextNode('❌'));
+
+    //add complete button, input value and delete button in li
+    li.append(completeBtn, liValue, delBtn);
+
+    
 }
