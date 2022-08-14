@@ -34,4 +34,7 @@ function addItem(e) {
 
     //add li into item(ul)
     item.appendChild(li);
+
+    //reset value of input box
+    input.value = '';
 }
