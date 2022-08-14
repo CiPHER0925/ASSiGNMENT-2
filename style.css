@@ -12,7 +12,7 @@ body {
 
 /* linear-gradient(to bottom right, #B69DE8, #9C11F9);*/
 .header {
-    background-image: url(/img/2205_w026_n002_1983b_p1_1983.jpg);
+    background-image: url(/ASSiGNMENT-2/img/2205_w026_n002_1983b_p1_1983.jpg);
     height: 40vh;
     background-size: cover;
     background-position: top;
@@ -72,6 +72,7 @@ body {
 
 .added-item {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     height: 45px;
     width: 510px;
@@ -81,8 +82,12 @@ body {
     background-color: #25273C;
 }
 
-.list-value {
-    margin-right: 68%;
+.input-value {
+    margin-left: 2rem;
+}
+
+.buttons {
+    margin-right: 1rem;
 }
 
 .complete {
@@ -100,7 +105,6 @@ body {
 .delete {
     width: 45px;
     height: 45px;
-    margin-left: 68%;
     border-radius: 50px;
     background: transparent;
     border: none;
