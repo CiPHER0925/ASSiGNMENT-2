@@ -13,5 +13,19 @@ function addItem(e) {
     let li = document.createElement('li');
     li.id = 'list-items';
     li.className = 'added-item';
-    
+
+    //create complete button
+    let completeBtn = document.createElement('button');
+    completeBtn.id = 'checked';
+    completeBtn.className = 'complete';
+    completeBtn.appendChild(document.createTextNode('✔'));
+
+    //add input in li
+    let liValue = li.appendChild(document.createTextNode(input.value));
+
+    //create delete button
+    let delBtn = document.createElement('button');
+    delBtn.id = 'del-btn';
+    delBtn.className = 'delete';
+    delBtn.appendChild(document.createTextNode('❌'));
 }
