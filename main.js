@@ -57,5 +57,8 @@ function removeItem(e) {
     }
     if(e.target.classList[0] == 'complete') {
         e.target.parentElement.children[1].remove();
+
+        let changeBg = e.target.parentElement.children[0];
+        changeBg.style.backgroundColor = 'green';
     }
 }
