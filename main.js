@@ -3,7 +3,7 @@ let item = document.getElementById('items');
 
 
 addBtn.addEventListener('click', addItem);
-
+item.addEventListener('click', removeItem);
 
 function addItem(e) {
     //take input from user
@@ -37,4 +37,9 @@ function addItem(e) {
 
     //reset value of input box
     input.value = '';
+}
+
+
+function removeItem(e) {
+    
 }
