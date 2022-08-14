@@ -32,5 +32,6 @@ function addItem(e) {
     //add complete button, input value and delete button in li
     li.append(completeBtn, liValue, delBtn);
 
-    
+    //add li into item(ul)
+    item.appendChild(li);
 }
