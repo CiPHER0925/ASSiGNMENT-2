@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    background: url(/bg-img.jpg);
+    background: url(/ASSiGNMENT-2/img/2205_w026_n002_1983b_p1_1983.jpg);
     height: 45vh;
     background-size: cover;
     background-position: top;
@@ -80,7 +80,7 @@ body {
     border-bottom: 1px solid #53556A;
     color: white;
     background-color: #25273C;
-    animation: moveInTop .5s ease-out .75s;
+    animation: moveInTop .2s ease-out .2s;
     animation-fill-mode: backwards;
 }
 
@@ -102,7 +102,7 @@ body {
     border: 1px solid #53556A;
     color: white;
     font-size: 1rem;
-    animation: deletingBtn .5s ease-out .75s;
+    animation: deletingBtn .2s ease-out .2s;
 }
 
 .complete:hover {
@@ -121,8 +121,6 @@ body {
     border: none;
     color: white;
     font-size: 1rem;
-    animation: removeItem .5s ease-out .75s;
-    animation-fill-mode: backwards;
 }
 
 
@@ -140,7 +138,7 @@ body {
 @keyframes deletingBtn {
     0% {
         opacity: 0;
-        transform: translateX(1rem);
+        transform: translateX(2rem);
     }
     100% {
         opacity: 1;
