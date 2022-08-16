@@ -54,10 +54,6 @@ body {
     color: white;
 }
 
-.input-box::placeholder {
-    color: white;
-}
-
 .addbtn:hover {
     background: white;
     color: #25273C;
